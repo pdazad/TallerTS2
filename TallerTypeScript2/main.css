@@ -1,0 +1,32 @@
+h1{
+    align-items: left;
+    font-family:arial;
+    color:rgb(244, 252, 251);
+    font-size: 20px;
+    font-weight: bold;
+    display:inline;
+}
+
+#principal{
+    background-color: #26B0BF;
+    margin: #26B0BF;
+}
+
+.photoh{
+    width: 35px;
+    margin: 5px;
+    display:inline;
+}
+
+.col-table{
+    margin: 20px;
+}
+
+.col-card{
+    margin: 20px;
+    display: inline;
+}
+
+.card-img-top{
+    display: inline;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TallerTS2</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="principal" class="col">
+                <img class ="photoh" src="https://cdn-icons-png.flaticon.com/512/6209/6209965.png">  
+                <h1>TV Series</h1> 
+            </div>
+        </div>
+                <div class="row">
+                    <div class="col col-table">
+                        <table class="table table-hover">
+                            <caption>
+                                <div class="row">
+                                    <p>Seasons average:</p> <p id= "seasons"></p>
+                                </div>
+                            </caption>
+                            <thead>
+                            <tr>
+                                <th scope="col" class="table-info">#</th>
+                                <th scope="col" class="table-info">Name</th>
+                                <th scope="col" class="table-info">Channel</th>
+                                <th scope="col" class="table-info">Seasons</th>
+                            </tr>
+                            </thead>
+                            <tbody id="series" >
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col col-card">
+                        <div class="card" style="width: 18rem;">
+                            <img id= "card-image" class="card-img-top">
+                            <div class="card-body">
+                              <h5 id="card-name" class="card-title"></h5>
+                              <p id="card-info" class="card-text"></p>
+                              <a id="card-link" class="card-link"></a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+    <script type="module" src="./scripts/serie.js" ></script>
+    <script type="module" src="./scripts/data.js" ></script>
+    <script type="module" src="./scripts/main.js"></script>                
+</body>
+</html>
